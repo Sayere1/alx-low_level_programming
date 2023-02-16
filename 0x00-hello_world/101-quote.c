@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main - Write a c programm without using the printf and put functions
  * Return: 1 (Success)
