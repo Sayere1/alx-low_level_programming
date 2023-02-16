@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - Entry point
+ * main - write a programm without using printf and put fnc
  *
  * Return: Always 1 (Success)
  */
