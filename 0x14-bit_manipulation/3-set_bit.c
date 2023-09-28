@@ -8,14 +8,14 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int n;
+	unsigned long int p;
 
 	if (index > 128)
 		return (-1);
 
-	for (n = 1; index > 0; index--, n *= 2)
+	for (p = 1; index > 0; index--, p *= 2)
 		;
-	*n += n;
+	*n += p;
 
 	return (1);
 }
