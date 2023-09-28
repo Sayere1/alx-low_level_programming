@@ -6,6 +6,8 @@
  * no usage of malloc
  * no usage of % or / operations
  * @n: decimal number to print as binary
+ *
+ * Return: no return
  */
 void print_binary(unsigned long int n)
 {
