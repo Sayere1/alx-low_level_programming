@@ -6,14 +6,14 @@
  * @index: starting from 0, of the bit we want to get
  * Return: The Value of bit at index, or -1 if an error occured
  */
-int get_bit(unsigned int index, unsigned long int n)
+int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int index;
+	unsigned long int hold;
 
 	if (index > 128)
 		return (-1);
 
-	index = n >> hold
+	hold = n >> index;
 
-	return (index & 1);
+	return (hold & 1);
 }
