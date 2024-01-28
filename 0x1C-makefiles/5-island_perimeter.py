@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""func def island_perimeter(grid): that ret d perimeter of d island described in grid."""
+"""func that ret d perimeter of d island described in grid."""
 
 
 def island_perimeter(grid):
